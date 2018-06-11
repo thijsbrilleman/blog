@@ -36,7 +36,16 @@
       </header>
       <section>
         
-        {{ content }}
+        <ul class="entries">
+          {% for post in site.posts limit:10 %}
+          <li>
+            <a href="{{ post.url }}">
+            <h3>{{ post.title }}</h3>
+            <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
         
         <p><small>© Copyright Thijs Brilleman 2018. Alle rechten voorbehouden.</small></p>
       </section>
