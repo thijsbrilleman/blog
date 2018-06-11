@@ -3,9 +3,9 @@ layout: post
 title: Docenten afrekenen alsof het studenten zijn
 ---
 
-Wat is goed onderwijs?**
+**Wat is goed onderwijs?**
 
-Onderwijs vind ik een misleidend woord. Dat woord gaat namelijk uit van de zender. Alsof die het werk moet doen! Natuurlijk niet waar: uiteindelijk moet er iets veranderen in het hoofd van de student, en daar zal die toch echt zelf voor moeten zorgen.
+Ik ga zo'n irritante docent zijn die de vraag ter discussie stelt. Onderwijs vind ik namelijk een misleidend woord. Dat woord gaat namelijk uit van de zender. Alsof die het werk moet doen! Natuurlijk niet waar: uiteindelijk moet er iets veranderen in het hoofd van de student, en daar zal die toch echt zelf voor moeten zorgen.
 
 **Dus we hebben helemaal geen docenten en scholen nodig?**
 
