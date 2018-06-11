@@ -6,10 +6,8 @@ layout: default
   <a href="{{ post.url }}">
     <h2>{{ post.title }}</h2>
 </a>
+<p class="blogdate" style="font-size: 60%">{{ post.date | date: "%d %B %Y" }}</p>
     <div>{{ post.content }}</div>
-
-    <p class="blogdate" style="font-size: 60%">{{ post.date | date: "%d %B %Y" }}</p>
-
   <hr/>
 
   </li>
