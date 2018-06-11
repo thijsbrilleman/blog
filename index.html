@@ -8,8 +8,11 @@ layout: default
   <a href="{{ post.url }}">
     <h2>{{ post.title }}</h2>
 </a>
-    <div>{{ post.content |truncatehtml | truncatewords: 150 }}</div>
+    <div>{{ post.content }}</div>
 
-    <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
+    <p class="blogdate" style="size: 60%">{{ post.date | date: "%d %B %Y" }}</p>
+
+  <hr/>
+
   </li>
   {% endfor %}
