@@ -35,7 +35,7 @@
         {% endif %}
       </header>
       <section>
-        4
+        {{ site.github.build_revision }}
         <ul class="entries">
           {% for post in paginator.posts %}
           <li>
@@ -47,9 +47,6 @@
           </li>
           {% endfor %}
         </ul>
-        
-        {{ site.lang }}
-        {{ site.lang }}
         
         {{ content }}
         
