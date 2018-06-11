@@ -4,9 +4,28 @@ layout: default
 
 {% for post in site.posts limit: 10 %}
   <a href="{{ post.url }}">
-    <h2>{{ post.title }}</h2>
+    <h2 style="margin-bottom: 4px">{{ post.title }}</h2>
 </a>
-<p class="blogdate" style="font-size: 60%">{{ post.date | date: "%d %B %Y" }}</p>
+<p class="blogdate" style="font-size: 60%">
+{% assign m = post.date | date: "%-m" %}
+{{ post.date | date: "%-d" }}
+{% case m %}
+  {% when '1' %}januari
+  {% when '2' %}februari
+  {% when '3' %}maart
+  {% when '4' %}april
+  {% when '5' %}mei
+  {% when '6' %}juni
+  {% when '7' %}juli
+  {% when '8' %}augustus
+  {% when '9' %}september
+  {% when '10' %}oktober
+  {% when '11' %}november
+  {% when '12' %}december
+{% endcase %}
+{{ post.date | date: "%Y" }}
+</p>
+
     <div>{{ post.content }}</div>
   <hr/>
 
